@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Uikit_storyboard_gui_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gfO-ok-Wvc">
+                                <rect key="frame" x="10" y="59" width="373" height="200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FdD-p3-kRw" userLabel="firstView">
+                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="200"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A0h-G5-B8t">
+                                                <rect key="frame" x="47.666666666666657" y="130" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="ITa-hT-dj9"/>
+                                                    <constraint firstAttribute="height" constant="50" id="t2f-1n-t9y"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gV-yT-5xR" userLabel="title">
+                                                <rect key="frame" x="20.000000000000004" y="19.999999999999996" width="44.333333333333343" height="40.666666666666657"/>
+                                                <string key="text">사운드
+테라피</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZOz-xG-DXn" userLabel="subtitleBg">
+                                                <rect key="frame" x="19.999999999999996" y="69" width="39.666666666666657" height="30.333333333333329"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="무료" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJy-km-eu5">
+                                                        <rect key="frame" x="5.0000000000000018" y="5" width="29.666666666666671" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemMintColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="HJy-km-eu5" firstAttribute="leading" secondItem="ZOz-xG-DXn" secondAttribute="leading" constant="5" id="DhW-Ae-gUN"/>
+                                                    <constraint firstItem="HJy-km-eu5" firstAttribute="centerY" secondItem="ZOz-xG-DXn" secondAttribute="centerY" id="kU5-4A-5qf"/>
+                                                    <constraint firstItem="HJy-km-eu5" firstAttribute="top" secondItem="ZOz-xG-DXn" secondAttribute="top" constant="5" id="oTA-Nj-cmC"/>
+                                                    <constraint firstItem="HJy-km-eu5" firstAttribute="centerX" secondItem="ZOz-xG-DXn" secondAttribute="centerX" id="tgn-1Z-Gzm"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="MR8-2M-soa"/>
+                                            <constraint firstAttribute="bottom" secondItem="A0h-G5-B8t" secondAttribute="bottom" constant="20" id="N8r-8c-8tk"/>
+                                            <constraint firstItem="3gV-yT-5xR" firstAttribute="leading" secondItem="FdD-p3-kRw" secondAttribute="leading" constant="20" id="Noq-NA-pk7"/>
+                                            <constraint firstAttribute="trailing" secondItem="A0h-G5-B8t" secondAttribute="trailing" constant="20" id="QNC-ft-zVd"/>
+                                            <constraint firstItem="ZOz-xG-DXn" firstAttribute="leading" secondItem="3gV-yT-5xR" secondAttribute="leading" id="UfM-ad-U74"/>
+                                            <constraint firstItem="3gV-yT-5xR" firstAttribute="top" secondItem="FdD-p3-kRw" secondAttribute="top" constant="20" id="mQx-j9-4Cp"/>
+                                            <constraint firstItem="ZOz-xG-DXn" firstAttribute="top" secondItem="3gV-yT-5xR" secondAttribute="bottom" constant="8.3333333333333428" id="xaK-Ag-gU1"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ntC-JT-ZCY" userLabel="secondView">
+                                        <rect key="frame" x="127.66666666666666" y="0.0" width="117.66666666666666" height="200"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gHY-Gt-BTu">
+                                                <rect key="frame" x="47.666666666666686" y="130" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="Sao-bA-AAS"/>
+                                                    <constraint firstAttribute="height" constant="50" id="spM-mk-CPj"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fv1-2U-08k" userLabel="title">
+                                                <rect key="frame" x="20.000000000000004" y="19.999999999999996" width="44.333333333333343" height="40.666666666666657"/>
+                                                <string key="text">사운드
+테라피</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cwS-wG-WW1" userLabel="subtitleBg">
+                                                <rect key="frame" x="19.999999999999996" y="69" width="39.666666666666657" height="30.333333333333329"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="무료" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9J-fa-Oe5">
+                                                        <rect key="frame" x="5.0000000000000018" y="5" width="29.666666666666671" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemMintColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="g9J-fa-Oe5" firstAttribute="top" secondItem="cwS-wG-WW1" secondAttribute="top" constant="5" id="2Ii-zp-zKp"/>
+                                                    <constraint firstItem="g9J-fa-Oe5" firstAttribute="leading" secondItem="cwS-wG-WW1" secondAttribute="leading" constant="5" id="G9P-ve-voo"/>
+                                                    <constraint firstItem="g9J-fa-Oe5" firstAttribute="centerY" secondItem="cwS-wG-WW1" secondAttribute="centerY" id="I3t-gH-g98"/>
+                                                    <constraint firstItem="g9J-fa-Oe5" firstAttribute="centerX" secondItem="cwS-wG-WW1" secondAttribute="centerX" id="Vdy-2Q-7OC"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <constraints>
+                                            <constraint firstItem="cwS-wG-WW1" firstAttribute="top" secondItem="fv1-2U-08k" secondAttribute="bottom" constant="8.3333333333333428" id="2Pe-ua-soy"/>
+                                            <constraint firstAttribute="bottom" secondItem="gHY-Gt-BTu" secondAttribute="bottom" constant="20" id="2RD-Xd-v0b"/>
+                                            <constraint firstAttribute="trailing" secondItem="gHY-Gt-BTu" secondAttribute="trailing" constant="20" id="35Y-D2-tvi"/>
+                                            <constraint firstItem="cwS-wG-WW1" firstAttribute="leading" secondItem="fv1-2U-08k" secondAttribute="leading" id="6Dx-tu-udy"/>
+                                            <constraint firstAttribute="height" constant="200" id="Ivj-O6-ZSu"/>
+                                            <constraint firstItem="fv1-2U-08k" firstAttribute="leading" secondItem="ntC-JT-ZCY" secondAttribute="leading" constant="20" id="hKj-TR-p8y"/>
+                                            <constraint firstItem="fv1-2U-08k" firstAttribute="top" secondItem="ntC-JT-ZCY" secondAttribute="top" constant="20" id="iAh-Gv-thm"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gy7-As-y0x" userLabel="thirdView">
+                                        <rect key="frame" x="255.33333333333329" y="0.0" width="117.66666666666666" height="200"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fu8-iS-f1l">
+                                                <rect key="frame" x="47.666666666666686" y="130" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="0a5-an-L3Y"/>
+                                                    <constraint firstAttribute="width" constant="50" id="b1R-nr-Z68"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTK-AW-Lhk" userLabel="title">
+                                                <rect key="frame" x="20.000000000000004" y="19.999999999999996" width="44.333333333333343" height="40.666666666666657"/>
+                                                <string key="text">사운드
+테라피</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f71-96-mSv" userLabel="subtitleBg">
+                                                <rect key="frame" x="19.999999999999996" y="69" width="39.666666666666657" height="30.333333333333329"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="무료" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90M-tQ-hBA">
+                                                        <rect key="frame" x="5.0000000000000018" y="5" width="29.666666666666671" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemMintColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="90M-tQ-hBA" firstAttribute="leading" secondItem="f71-96-mSv" secondAttribute="leading" constant="5" id="Asc-Vc-9b2"/>
+                                                    <constraint firstItem="90M-tQ-hBA" firstAttribute="top" secondItem="f71-96-mSv" secondAttribute="top" constant="5" id="EeV-np-n4Q"/>
+                                                    <constraint firstItem="90M-tQ-hBA" firstAttribute="centerX" secondItem="f71-96-mSv" secondAttribute="centerX" id="Yde-Y7-UTu"/>
+                                                    <constraint firstItem="90M-tQ-hBA" firstAttribute="centerY" secondItem="f71-96-mSv" secondAttribute="centerY" id="aIZ-3y-jPg"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <constraints>
+                                            <constraint firstItem="XTK-AW-Lhk" firstAttribute="leading" secondItem="Gy7-As-y0x" secondAttribute="leading" constant="20" id="5bd-6W-C6x"/>
+                                            <constraint firstAttribute="trailing" secondItem="Fu8-iS-f1l" secondAttribute="trailing" constant="20" id="lWT-Ur-Cc7"/>
+                                            <constraint firstAttribute="height" constant="200" id="lbk-c9-52S"/>
+                                            <constraint firstItem="f71-96-mSv" firstAttribute="top" secondItem="XTK-AW-Lhk" secondAttribute="bottom" constant="8.3333333333333428" id="pH1-Wg-jQB"/>
+                                            <constraint firstItem="f71-96-mSv" firstAttribute="leading" secondItem="XTK-AW-Lhk" secondAttribute="leading" id="qba-ay-4Ix"/>
+                                            <constraint firstItem="XTK-AW-Lhk" firstAttribute="top" secondItem="Gy7-As-y0x" secondAttribute="top" constant="20" id="sPh-un-j99"/>
+                                            <constraint firstAttribute="bottom" secondItem="Fu8-iS-f1l" secondAttribute="bottom" constant="20" id="yh4-ZP-1Pe"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vTP-6C-DWc" userLabel="firstStackView">
+                                <rect key="frame" x="21" y="259" width="351" height="66"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R8A-PZ-Dbf">
+                                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="A6x-AG-E3s"/>
+                                            <constraint firstAttribute="width" constant="50" id="Myb-gq-pY9"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcZ-RK-AR6" userLabel="title">
+                                        <rect key="frame" x="136.66666666666666" y="8" width="78" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pqB-n3-WGD">
+                                        <rect key="frame" x="293" y="8" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="5VA-rW-VPS"/>
+                                            <constraint firstAttribute="width" constant="50" id="YIH-tA-po9"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvp-dD-4Pb" userLabel="secondStackViewContainer">
+                                <rect key="frame" x="21" y="325" width="351" height="65"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="LSq-NI-kAn" userLabel="secondStackView">
+                                        <rect key="frame" x="20" y="20" width="311" height="25"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="z3M-rr-8Ln">
+                                                <rect key="frame" x="0.0" y="0.0" width="215.33333333333334" height="25"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내 카카오뱅크 입출금 통장" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9S-1G-wJC" userLabel="title">
+                                                        <rect key="frame" x="0.0" y="0.0" width="155" height="25"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5N-qC-zaV" userLabel="title">
+                                                        <rect key="frame" x="160" y="0.0" width="55.333333333333343" height="25"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Oge-vJ-pLu">
+                                                <rect key="frame" x="286" y="0.0" width="25" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="25" id="HLm-hY-sE6"/>
+                                                    <constraint firstAttribute="width" constant="25" id="U25-wZ-WJY"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstItem="LSq-NI-kAn" firstAttribute="top" secondItem="hvp-dD-4Pb" secondAttribute="top" constant="20" id="VCj-Nz-FfH"/>
+                                    <constraint firstAttribute="trailing" secondItem="LSq-NI-kAn" secondAttribute="trailing" constant="20" id="amq-hj-L3f"/>
+                                    <constraint firstAttribute="bottom" secondItem="LSq-NI-kAn" secondAttribute="bottom" constant="20" id="sxo-vs-Oef"/>
+                                    <constraint firstItem="LSq-NI-kAn" firstAttribute="leading" secondItem="hvp-dD-4Pb" secondAttribute="leading" constant="20" id="tpF-xi-0UY"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="XKv-i1-IyW">
+                                <rect key="frame" x="20" y="418" width="353" height="246"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="1Qr-Xe-faw">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="75.333333333333329"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="auh-UZ-khs">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="75.333333333333329"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SPn-Mw-lHY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="GKt-ob-DnV"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mN-lQ-4pf" userLabel="title">
+                                                        <rect key="frame" x="0.0" y="55.000000000000007" width="78" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="w8Y-S2-jlf">
+                                                <rect key="frame" x="91.666666666666686" y="0.0" width="78" height="75.333333333333329"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WRy-R0-zho">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="YbJ-9i-5et"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMA-C0-eKX" userLabel="title">
+                                                        <rect key="frame" x="0.0" y="55.000000000000007" width="78" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ooX-rv-v4k">
+                                                <rect key="frame" x="183.33333333333334" y="0.0" width="78.000000000000028" height="75.333333333333329"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TX6-1U-ze1">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="RkH-Xh-Rdh"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9U-Qw-Hqo" userLabel="title">
+                                                        <rect key="frame" x="0.0" y="55.000000000000007" width="78" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="tb8-FU-dg6">
+                                                <rect key="frame" x="275" y="0.0" width="78" height="75.333333333333329"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dM5-6L-ybN">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="qW5-Zf-iOc"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7N1-Qq-9kw" userLabel="title">
+                                                        <rect key="frame" x="0.0" y="55.000000000000007" width="78" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="yN6-pK-rYI">
+                                        <rect key="frame" x="0.0" y="85.333333333333314" width="353" height="75.333333333333314"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="DuN-5K-4uX">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="75.333333333333329"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fge-ka-zEL">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="9Wz-hA-zyf"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cag-bp-RTk" userLabel="title">
+                                                        <rect key="frame" x="0.0" y="55.000000000000064" width="78" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OYu-Nm-dmI">
+                                                <rect key="frame" x="91.666666666666686" y="0.0" width="78" height="75.333333333333329"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zNt-Hc-ZoK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="7qB-43-g22"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jp2-Vf-3a4" userLabel="title">
+                                                        <rect key="frame" x="0.0" y="55.000000000000064" width="78" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QMp-th-PbX">
+                                                <rect key="frame" x="183.33333333333334" y="0.0" width="78.000000000000028" height="75.333333333333329"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uus-Fd-uXp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="Slh-e0-H7P"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wea-cu-d7g" userLabel="title">
+                                                        <rect key="frame" x="0.0" y="55.000000000000064" width="78" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="e8p-PT-ESu">
+                                                <rect key="frame" x="275" y="0.0" width="78" height="75.333333333333329"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OB8-aK-XkH">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="zUM-Nm-UvA"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pwo-vM-QfI" userLabel="title">
+                                                        <rect key="frame" x="0.0" y="55.000000000000064" width="78" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="BcS-eW-cyn">
+                                        <rect key="frame" x="0.0" y="170.66666666666663" width="353" height="75.333333333333314"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="2kA-ae-YDG">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="75.333333333333329"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jly-9j-45y">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="1pH-jD-KZg"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrM-iK-PFa" userLabel="title">
+                                                        <rect key="frame" x="0.0" y="55.000000000000007" width="78" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="rAU-rf-a1j">
+                                                <rect key="frame" x="91.666666666666686" y="0.0" width="78" height="75.333333333333329"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BOD-Pu-0OV">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="acb-Ha-rQD"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWo-GA-Tg6" userLabel="title">
+                                                        <rect key="frame" x="0.0" y="55.000000000000007" width="78" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="89P-tM-hPr">
+                                                <rect key="frame" x="183.33333333333334" y="0.0" width="78.000000000000028" height="75.333333333333329"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VL0-sA-Vc2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="Ms4-28-eKc"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZf-DK-PUn" userLabel="title">
+                                                        <rect key="frame" x="0.0" y="55.000000000000007" width="78" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="9Qd-ih-E8d">
+                                                <rect key="frame" x="275" y="0.0" width="78" height="75.333333333333329"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jTe-Nt-zFn">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="sDi-fu-p7o"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="젤리 교환소" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUK-iT-cdG" userLabel="title">
+                                                        <rect key="frame" x="0.0" y="55.000000000000007" width="78" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="iQj-Ko-dPD" userLabel="secondStackView">
+                                <rect key="frame" x="20" y="684" width="353" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="예약없이 5분 내 바로 상담" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NkN-3H-M4K" userLabel="title">
+                                        <rect key="frame" x="0.0" y="0.0" width="155" height="25"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="JSf-vb-4yL">
+                                        <rect key="frame" x="281.33333333333331" y="0.0" width="71.666666666666686" height="25"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="모두보기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Nb-48-XPe" userLabel="title">
+                                                <rect key="frame" x="0.0" y="0.0" width="41.666666666666664" height="25"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VVn-rO-MTd">
+                                                <rect key="frame" x="46.666666666666686" y="0.0" width="25" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="25" id="DwQ-Dc-csU"/>
+                                                    <constraint firstAttribute="width" constant="25" id="zoM-H7-i1Q"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hvp-dD-4Pb" firstAttribute="firstBaseline" secondItem="vTP-6C-DWc" secondAttribute="baseline" constant="8" symbolType="layoutAnchor" id="345-RT-gLJ"/>
+                            <constraint firstItem="hvp-dD-4Pb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="5Pa-Np-cF9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hvp-dD-4Pb" secondAttribute="trailing" constant="21" id="AEU-h6-M9q"/>
+                            <constraint firstItem="iQj-Ko-dPD" firstAttribute="top" secondItem="XKv-i1-IyW" secondAttribute="bottom" constant="20" id="B9P-kd-82Q"/>
+                            <constraint firstItem="XKv-i1-IyW" firstAttribute="top" secondItem="hvp-dD-4Pb" secondAttribute="bottom" constant="28" id="E9J-qH-cI1"/>
+                            <constraint firstItem="gfO-ok-Wvc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Jav-l7-2P5"/>
+                            <constraint firstItem="vTP-6C-DWc" firstAttribute="firstBaseline" secondItem="gfO-ok-Wvc" secondAttribute="baseline" constant="8" symbolType="layoutAnchor" id="Kh5-S4-jiN"/>
+                            <constraint firstItem="iQj-Ko-dPD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="L1v-zU-rBr"/>
+                            <constraint firstItem="gfO-ok-Wvc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="X93-lU-574"/>
+                            <constraint firstItem="gfO-ok-Wvc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="a4w-mP-iZb"/>
+                            <constraint firstItem="vTP-6C-DWc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="fOF-LH-d1A"/>
+                            <constraint firstItem="XKv-i1-IyW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kRQ-K3-eKO"/>
+                            <constraint firstItem="XKv-i1-IyW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kZD-VU-Xpc"/>
+                            <constraint firstItem="vTP-6C-DWc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mgN-EH-oBJ"/>
+                            <constraint firstItem="iQj-Ko-dPD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="oHf-kb-s4M"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="67.938931297709928" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
