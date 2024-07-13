@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="uikit_storyboard_scrollview_stretchyheader" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZVt-BL-ko4">
+                                <rect key="frame" x="0.0" y="59" width="393" height="1107"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QXa-Lm-fpB" userLabel="headerContainerView">
+                                        <rect key="frame" x="0.0" y="106" width="393" height="94"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_img" translatesAutoresizingMaskIntoConstraints="NO" id="ZM8-VQ-asC" userLabel="headerimgView">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="94"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="ZM8-VQ-asC" firstAttribute="leading" secondItem="QXa-Lm-fpB" secondAttribute="leading" id="7LE-1R-kda"/>
+                                            <constraint firstAttribute="bottom" secondItem="ZM8-VQ-asC" secondAttribute="bottom" id="DkJ-Fe-hXl"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZM8-VQ-asC" secondAttribute="trailing" id="fZR-Tg-V9r"/>
+                                            <constraint firstItem="ZM8-VQ-asC" firstAttribute="top" secondItem="QXa-Lm-fpB" secondAttribute="top" id="tI2-OB-UC9"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rke-SG-7i9" userLabel="content">
+                                        <rect key="frame" x="0.0" y="200" width="393" height="1217"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrE-BW-2YS">
+                                                <rect key="frame" x="10" y="10" width="373" height="1197"/>
+                                                <mutableString key="text">국무회의는 대통령·국무총리와 15인 이상 30인 이하의 국무위원으로 구성한다. 선거에 있어서 최고득표자가 2인 이상인 때에는 국회의 재적의원 과반수가 출석한 공개회의에서 다수표를 얻은 자를 당선자로 한다. 이 헌법시행 당시에 이 헌법에 의하여 새로 설치될 기관의 권한에 속하는 직무를 행하고 있는 기관은 이 헌법에 의하여 새로운 기관이 설치될 때까지 존속하며 그 직무를 행한다.
+
+재판의 전심절차로서 행정심판을 할 수 있다. 행정심판의 절차는 법률로 정하되, 사법절차가 준용되어야 한다. 혼인과 가족생활은 개인의 존엄과 양성의 평등을 기초로 성립되고 유지되어야 하며, 국가는 이를 보장한다. 모든 국민은 신체의 자유를 가진다. 누구든지 법률에 의하지 아니하고는 체포·구속·압수·수색 또는 심문을 받지 아니하며, 법률과 적법한 절차에 의하지 아니하고는 처벌·보안처분 또는 강제노역을 받지 아니한다.
+
+대통령은 국민의 보통·평등·직접·비밀선거에 의하여 선출한다. 군인은 현역을 면한 후가 아니면 국무총리로 임명될 수 없다. 모든 국민은 능력에 따라 균등하게 교육을 받을 권리를 가진다. 국회는 의원의 자격을 심사하며, 의원을 징계할 수 있다. 대통령은 내란 또는 외환의 죄를 범한 경우를 제외하고는 재직중 형사상의 소추를 받지 아니한다.
+
+대한민국의 국민이 되는 요건은 법률로 정한다. 헌법재판소 재판관의 임기는 6년으로 하며, 법률이 정하는 바에 의하여 연임할 수 있다. 국가는 농수산물의 수급균형과 유통구조의 개선에 노력하여 가격안정을 도모함으로써 농·어민의 이익을 보호한다. 형사피해자는 법률이 정하는 바에 의하여 당해 사건의 재판절차에서 진술할 수 있다.
+
+모든 국민은 인간으로서의 존엄과 가치를 가지며, 행복을 추구할 권리를 가진다. 국가는 개인이 가지는 불가침의 기본적 인권을 확인하고 이를 보장할 의무를 진다. 광물 기타 중요한 지하자원·수산자원·수력과 경제상 이용할 수 있는 자연력은 법률이 정하는 바에 의하여 일정한 기간 그 채취·개발 또는 이용을 특허할 수 있다.
+
+연소자의 근로는 특별한 보호를 받는다. 국회는 의장 1인과 부의장 2인을 선출한다. 행정권은 대통령을 수반으로 하는 정부에 속한다. 국가는 과학기술의 혁신과 정보 및 인력의 개발을 통하여 국민경제의 발전에 노력하여야 한다. 모든 국민의 재산권은 보장된다. 그 내용과 한계는 법률로 정한다. 정기회의 회기는 100일을, 임시회의 회기는 30일을 초과할 수 없다.
+
+제안된 헌법개정안은 대통령이 20일 이상의 기간 이를 공고하여야 한다. 대법관은 대법원장의 제청으로 국회의 동의를 얻어 대통령이 임명한다. 모든 국민은 신속한 재판을 받을 권리를 가진다. 형사피고인은 상당한 이유가 없는 한 지체없이 공개재판을 받을 권리를 가진다. 국회나 그 위원회의 요구가 있을 때에는 국무총리·국무위원 또는 정부위원은 출석·답변하여야 하며, 국무총리 또는 국무위원이 출석요구를 받은 때에는 국무위원 또는 정부위원으로 하여금 출석·답변하게 할 수 있다.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <constraints>
+                                            <constraint firstItem="hrE-BW-2YS" firstAttribute="leading" secondItem="rke-SG-7i9" secondAttribute="leading" constant="10" id="ICm-Dv-3bm"/>
+                                            <constraint firstItem="hrE-BW-2YS" firstAttribute="top" secondItem="rke-SG-7i9" secondAttribute="top" constant="10" id="aYQ-mk-9Mk"/>
+                                            <constraint firstItem="hrE-BW-2YS" firstAttribute="centerX" secondItem="rke-SG-7i9" secondAttribute="centerX" id="jTV-yS-tKN"/>
+                                            <constraint firstItem="hrE-BW-2YS" firstAttribute="centerY" secondItem="rke-SG-7i9" secondAttribute="centerY" id="yXy-76-Vkc"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="rke-SG-7i9" firstAttribute="leading" secondItem="khf-s8-lxe" secondAttribute="leading" id="0JW-Ir-Kgj"/>
+                                    <constraint firstItem="rke-SG-7i9" firstAttribute="bottom" secondItem="khf-s8-lxe" secondAttribute="bottom" id="5zC-Bc-L2l"/>
+                                    <constraint firstItem="khf-s8-lxe" firstAttribute="trailing" secondItem="QXa-Lm-fpB" secondAttribute="trailing" id="Fb9-gp-VMT"/>
+                                    <constraint firstItem="rke-SG-7i9" firstAttribute="top" secondItem="khf-s8-lxe" secondAttribute="top" constant="200" id="KHZ-CR-AWW"/>
+                                    <constraint firstItem="QXa-Lm-fpB" firstAttribute="leading" secondItem="khf-s8-lxe" secondAttribute="leading" id="RNa-9W-AGx"/>
+                                    <constraint firstItem="rke-SG-7i9" firstAttribute="top" secondItem="QXa-Lm-fpB" secondAttribute="bottom" priority="900" id="aAJ-cr-N5g"/>
+                                    <constraint firstItem="rke-SG-7i9" firstAttribute="width" secondItem="Ns1-v0-X2U" secondAttribute="width" id="kGY-T8-tGs"/>
+                                    <constraint firstItem="rke-SG-7i9" firstAttribute="trailing" secondItem="khf-s8-lxe" secondAttribute="trailing" id="z5k-tt-UYo"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="khf-s8-lxe"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Ns1-v0-X2U"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="QXa-Lm-fpB" secondAttribute="top" id="6Oj-Ms-0jD"/>
+                            <constraint firstItem="ZVt-BL-ko4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="AfP-cN-cQG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZVt-BL-ko4" secondAttribute="bottom" id="ByZ-yA-wo1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZVt-BL-ko4" secondAttribute="trailing" id="CfC-uq-e3U"/>
+                            <constraint firstItem="ZVt-BL-ko4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VWC-nD-N43"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="393" height="1200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_img" width="3600" height="2400"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
